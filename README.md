@@ -1,3 +1,7 @@
+# Web session references:
+
+1. https://gist.github.com/CiprianDraghici/c9168291c50fcc94e3f8f3c6b90a5bf1
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
