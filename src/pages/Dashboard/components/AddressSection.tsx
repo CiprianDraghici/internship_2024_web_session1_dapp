@@ -1,16 +1,12 @@
-import {useGetAccount} from "@multiversx/sdk-dapp/hooks";
+import { useGetAccount } from "@multiversx/sdk-dapp/hooks";
 
 export const AddressSection = () => {
-    const {
-        address
-    } = useGetAccount();
+  const { address } = useGetAccount();
 
-    return (
-        <div className="bg-neutral-200 p-4 rounded-lg w-full max-w">
-            <h3 className="text-lg font-bold mb-4">Address</h3>
-            <div className="flex justify-between">
-                <span className="text-small">{address}</span>
-            </div>
-        </div>
-    );
-}
+  return (
+    <div className="w-1/2 flex flex-col p-6 rounded-xl bg-white justify-center">
+      <h2 className="flex font-medium group text-sm">Address</h2>
+      <span className="text-sm flex justify-start">{address}</span>
+    </div>
+  );
+};
